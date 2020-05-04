@@ -6,6 +6,9 @@ html,body{
     scroll-behavior: smooth;
     scroll-padding-block: none;
 }
+#navHead{
+    width:100%;
+}
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -24,8 +27,6 @@ html,body{
 }
 
 #navbar{
-    background:transparent ;
-    z-index: 1;
     position: fixed;
     width:100vw;
     scroll-padding-block: none;
