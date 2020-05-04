@@ -28,6 +28,7 @@ html,body{
     z-index: 1;
     position: fixed;
     width:100vw;
+    scroll-padding-block: none;
 }
 #head{
     color: white;
@@ -43,6 +44,12 @@ footer{
     font-family: cursive;
 }
 hr.style12 {
+    height: 0.01rem;
+    background-color: #2954a0;
+    border: 0;
+    max-width: 8.1rem;
+}
+hr.style13 {
     height: 0.01rem;
     background-color: #2954a0;
     border: 0;
