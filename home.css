@@ -1,7 +1,7 @@
 html,body{
     margin: 0;
     padding:0;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-block: none;
@@ -24,7 +24,7 @@ html,body{
 }
 
 #navbar{
-    background-color:#489ce4 ;
+    background:transparent ;
     z-index: 1;
     position: fixed;
     width:100vw;
