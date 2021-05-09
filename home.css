@@ -8,18 +8,39 @@ html,body{
 }
 #navHead{
     width:100%;
+    background-color: linear-gradient(rgba(36, 139, 187, 0.6), rgba(31, 143, 196, 0.6));
 }
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://ae01.alicdn.com/kf/HTB1RCIAKFXXXXcPXpXXq6xXFXXXI/3D-ceiling-tiles-blue-sky-and-white-clouds-custom-hd-3d-ceiling-painting-wallpaper-home-decoration.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url('bgimage.jpeg');
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
   }
+.list{
+    margin-left: 2em;
+    list-style-image:url('arrow-right-square-fill.svg');
+    list-style-position: outside;
+    background-position: center;
+    color:rgb(48, 72, 116);
+    /* list-style: none; */
+    vertical-align: middle;
+}
 
+h5{
+    transform: translateY(-25%);
+    letter-spacing: 120%;
+}
+#feature-box{
+    border:1px solid rgba(15, 15, 15,0.4);
+    border-radius: 8px;
+}
 #featureHead{
-    font-family:cursive;
+    font-family: 'Girassol', cursive;
+font-family: 'Goblin One', cursive;
+font-family: 'Itim', cursive;
 }
 #card{
     height:12rem;
@@ -30,18 +51,23 @@ html,body{
     position: fixed;
     width:100vw;
     scroll-padding-block: none;
+    font-family: 'Girassol', cursive;
+font-family: 'Itim', cursive;
 }
 #head{
     color: white;
-    text-shadow: 0 0.1em 0.2em black;
-    font-family: cursive;
+    /* text-shadow: 0 0.1em 0.2em #489ce4; */
+    font-size: 62px;
+    font-family: 'Girassol', cursive;
+
 }
 .lead{
     font-family: cursive;
-    color: black;
+    color: white;
 }
 footer{
-    background-color:#489ce4 ;
+    padding:6em 2em 1em 2em;
+    background-color:#475c82 ;
     font-family: cursive;
 }
 hr.style12 {
@@ -55,16 +81,48 @@ hr.style13 {
     background-color: #2954a0;
     border: 0;
     max-width: 8.1rem;
+    font-family: 'Girassol', cursive;
 }
 h4{
-    font-family: cursive;
+    font-family: 'Girassol', cursive;
+font-family: 'Goblin One', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Passion One', cursive;
+}
+h5,p,a{
+    font-family: 'Girassol', cursive;
+    font-family: 'Itim', cursive;
 }
 .pgmpara{
     letter-spacing: 0.2em;
     font-weight: 0.3em;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
 }
 .hrpgm{
     max-width: 60%;
     text-align: left;
 
 }
+.caption{
+    background-color: rgba(207, 214, 221,0.5);
+    text-align: center;
+    color: black;
+    padding-top:1.5em;
+    padding-bottom: 1.5em;
+    margin: auto;
+    width: 40%;
+}
+#pic{
+    clip-path: circle(50% at 50% 50%);
+
+
+}
+
+.carousel-inner > .carousel-item > img {
+    height:80vh;
+    width:55%;
+  }
+
