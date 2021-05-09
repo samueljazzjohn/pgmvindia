@@ -14,14 +14,14 @@ html,body{
     height: 100vh;
     min-height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url('bgimage.jpeg');
+    url('images/bgimage.jpeg');
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
   }
 .list{
     margin-left: 2em;
-    list-style-image:url('arrow-right-square-fill.svg');
+    list-style-image:url('images/arrow-right-square-fill.svg');
     list-style-position: outside;
     background-position: center;
     color:rgb(48, 72, 116);
