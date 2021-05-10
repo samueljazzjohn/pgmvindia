@@ -119,6 +119,18 @@ h5,p,a{
 #pic{
     clip-path: circle(50% at 50% 50%);
 }
+
+/* #pic,#logo{
+    width:80%;
+    height: 50%;
+} */
+@media only screen and (max-width: 450px) {
+    #pic,#logo{
+        margin:auto;
+        width: 80%;
+        height: 50%;
+    }
+}
 @media only screen and (max-width: 767px) {
     #feature-box{
         border:none;
@@ -129,6 +141,7 @@ h5,p,a{
         width:75%;
     }
   }
+
   @media only screen and (max-height: 350px) {
     .carousel-inner > .carousel-item > img {
         height:100vh;
