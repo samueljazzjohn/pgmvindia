@@ -1,1 +1,1 @@
-
+console.log(screen.width+ " "+ screen.height)
